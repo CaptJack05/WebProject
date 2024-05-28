@@ -17,7 +17,7 @@ modeBtn.addEventListener("click",()=>{
 let pstat = document.getElementsByClassName("playerStaus");
 let turnX = document.getElementById("turnX");
 let turnO = document.getElementById("turnO");
-turnX.style.backgroundColor = "red";
+turnX.style.backgroundColor = "rgb(224, 37, 37)";
 turnO.style.backgroundColor = "white";
 
 const winPattern = [
@@ -42,10 +42,10 @@ changeTurn = ()=>{
 }
 function updateTurnIndicator() {
     if (turn === 'X') {
-        turnX.style.backgroundColor = "red";
+        turnX.style.backgroundColor = "rgb(224, 37, 37)";
         turnO.style.backgroundColor = "white";
     } else {
-        turnO.style.backgroundColor = "red";
+        turnO.style.backgroundColor = "rgb(224, 37, 37)";
         turnX.style.backgroundColor = "white";
 
 

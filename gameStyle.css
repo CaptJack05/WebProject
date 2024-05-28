@@ -53,9 +53,14 @@ footer{
     justify-content: center;
     align-items: center;
     border:3px solid black;
+    font-family: "Water Brush", cursive;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(224, 37, 37);
+    font-size: 6vw;
 }
 .cell:hover{
-    background-color: rebeccapurple;
+    background-color: rgb(151, 102, 199);
 }
 .playerStaus{
     display: flex;
