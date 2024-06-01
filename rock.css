@@ -1,0 +1,107 @@
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: bisque;
+    color: black;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bgMode{
+    margin: 10px;
+}
+#resetButton{
+    margin: 10px;
+}
+#container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    height: 12vw;
+    width: 12vw;
+    background-color: aqua;
+    background-image: url(rock.png);
+    background-position: center;
+    background-size: cover;
+    border: solid black;
+    border-radius: 50px;
+}
+#user-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    height: 12vw;
+    width: 12vw;
+    background-color: aqua;
+    background-image: url(rock.png);
+    background-position: center;
+    background-size: cover;
+    border: solid black;
+    border-radius: 50px;
+}
+#user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#rock{
+    background-image: url(rock.png);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    height: 15vw;
+    width: 15vw;
+    border: solid black;
+    border-radius: 50px; 
+    background-color: aqua;
+
+}
+#paper{
+    background-image: url(paper.png);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    height: 15vw;
+    width: 15vw;
+    border: solid black;
+    border-radius: 50px; 
+    background-color: aqua;  
+}
+#scissor{
+    background-image: url(scissor.png);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    height: 15vw;
+    width: 15vw;
+    border: solid black;
+    border-radius: 50px; 
+    background-color: aqua;  
+}
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
